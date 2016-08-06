@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Gasolina ou Etanol</string>
+    <string name="app_name">Gasolina ou Etanol</string>
+    <string name="btnCalculo">Calcular</string>
+    <string name="edtGasHint">Digite o valor da Gasolina</string>
+    <string name="edtEtanolHint">Digite o valor do Etanol</string>
+    <string name="txtGasolina">Valor da Gasolina</string>
+    <string name="txtEtanol"  >Valor do Etanol  </string>
+    <string name="txtDica">O valor do Etanol deve custar até 70% do valor da Gasolina para ser vantajoso</string>
+    <string name="btnVoltar">Voltar</string>
+    <string name="voltar">Voltar</string>
+</resources>

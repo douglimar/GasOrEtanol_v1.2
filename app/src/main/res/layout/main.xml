@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+    
+    <ImageView
+        android:id="@+id/ivTitulo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:contentDescription="@string/hello"
+        android:scaleType="centerCrop"
+        android:src="@drawable/titulo" />
+    
+    <TextView android:id="@+id/txtGasValue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtGasolina"
+        android:textColor="#000000"
+        android:textStyle="bold" 
+        android:gravity="left"
+        android:textSize="16dp"        
+        />
+    
+    <EditText
+        android:id="@+id/edtGasValue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal" />
+    
+    <TextView android:id="@+id/txtEtanolValue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtEtanol"
+        android:textColor="#000000"
+        android:textStyle="bold" 
+        android:gravity="left"
+        android:textSize="16dp" 
+        />
+    
+	<EditText
+	    android:id="@+id/edtEtanolValue"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:inputType="numberDecimal"
+	     
+	    />
+        
+    <Button android:id="@+id/btnCalcular"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnCalculo"
+        android:onClick="calcularCombustivel"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:textStyle="bold" 
+        />
+
+    <TextView
+        android:id="@+id/txtDica"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/txtDica"
+        android:textColor="#000000" />
+    
+</LinearLayout>
